@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+	background: linear-gradient(-45deg, #080808, #775562, #1a4150, #9fecda);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.position{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.border-bradius{
+    border: 1px solid red;
+    border-radius: 50%;
+}
+.out-line-1{
+    width: 95vh;
+    height: 95vh;
+}
+/*out-line-1 / out-line-2 difference : 2*/
+.out-line-2{
+    width: 93vh;
+    height: 93vh;
+}
+/*out-line-2 / out-line-3 difference : 8*/
+.out-line-3{
+    width: 85vh;
+    height: 85vh;
+}
+.out-line-4{
+    width: 83vh;
+    height: 83vh;
+}
+.square{
+    width: 58.5vh;
+    height: 58.5vh;
+    border: 1px solid blue;
+    position: absolute;
+}
+.deg-1{
+    transform: rotate(0);
+}
+.deg-2{
+    transform: rotate(30deg);
+}
+.deg-3{
+    transform: rotate(60deg);
+}
+.rune-box{
+    width: 40px;
+    height: 93vh;
+    border: 1px solid purple;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.text-reverse{
+    transform: rotate(180deg);
+}
+.run-box-deg-1{
+    transform: rotate(10deg);
+}
+.run-box-deg-2{
+    transform: rotate(20deg);
+}
+.run-box-deg-3{
+    transform: rotate(30deg);
+}
+.run-box-deg-4{
+    transform: rotate(40deg);
+}
+.run-box-deg-5{
+    transform: rotate(50deg);
+}
+.run-box-deg-6{
+    transform: rotate(60deg);
+}
+.run-box-deg-7{
+    transform: rotate(70deg);
+}
+.run-box-deg-8{
+    transform: rotate(80deg);
+}
+.run-box-deg-9{
+    transform: rotate(90deg);
+}
+.run-box-deg-10{
+    transform: rotate(100deg);
+}
+.run-box-deg-11{
+    transform: rotate(110deg);
+}
+.run-box-deg-12{
+    transform: rotate(120deg);
+}
+.run-box-deg-13{
+    transform: rotate(130deg);
+}
+.run-box-deg-14{
+    transform: rotate(140deg);
+}
+.run-box-deg-15{
+    transform: rotate(140deg);
+}
+.run-box-deg-16{
+    transform: rotate(150deg);
+}
+.run-box-deg-17{
+    transform: rotate(160deg);
+}
+.run-box-deg-18{
+    transform: rotate(170deg);
+}
