@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-	background: linear-gradient(-45deg, #080808, #775562, #1a4150, #9fecda);
+	background: linear-gradient(-45deg, #080808, #000000, #000000, #000000);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 }
@@ -57,7 +57,7 @@ body {
 .square{
     width: 58.5vh;
     height: 58.5vh;
-    border: 1px solid blue;
+    border: 1px solid red;
     position: absolute;
 }
 .deg-1{
@@ -72,13 +72,13 @@ body {
 .rune-box{
     width: 40px;
     height: 93vh;
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     position: absolute;
     display: flex;
     flex-direction: column;
     justify-content:space-between;
     align-items: center;
-    color: white;
+    color: red;
     font-size: 20px;
 }
 .text-reverse{
@@ -138,3 +138,48 @@ body {
 .run-box-deg-18{
     transform: rotate(170deg);
 }
+.out-line-4 *{
+    font-size: 50px; 
+    color: red;
+}
+.top-right{
+    position: absolute;
+    right: 10px;
+    top: -10px;
+}
+.top-left{
+    position: absolute;
+    left: rem;
+    top: -10px;
+}
+.bottom-left{
+    position: absolute;
+    bottom: -5px;
+}
+.bottom-right{
+    position: absolute;
+    bottom: -10px;
+    right: 10px;
+}
+  /* .rot {  
+    animation: rot 50s ease-in-out infinite;
+}
+@keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
+  .rot-reverse {  
+    animation: rot-reverse 50s ease-in-out infinite !important; 
+}
+@keyframes rot-reverse {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }  */
